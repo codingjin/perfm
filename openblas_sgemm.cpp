@@ -12,7 +12,7 @@
 #include <cmath>
 
 const int WARMUP = 10;
-const int RUNS = 10;
+const int RUNS = 100;
 const int MAXTHREADNUM = 20;
 const float ERR = 0.1;
 
