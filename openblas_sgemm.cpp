@@ -13,7 +13,8 @@
 
 const int WARMUP = 10;
 const int RUNS = 100;
-const int MAXTHREADNUM = 20;
+//const int MAXTHREADNUM = 20;  // i7 - 20
+const int MAXTHREADNUM = 32;  // r9 - 32
 const float ERR = 0.1;
 
 void compareMat(float *A, float *B, int N, int M);
@@ -129,7 +130,7 @@ void printResults(const std::string& name, const std::vector<double>& results, c
     dev /= results.size();
 
     std::cout << "=== " << name << " ===" << std::endl;
-    std::cout << "Took " << total << " seconds for " << RUNS << " runs.\n";
+    std::cout << "Took " << total << " seconds for " << RUNS << " runs. " << WARMUP << " warmups\n";
     std::cout << avg << " Avg.\t(" << FLOPs/1.0e9/avg << " GFLOPS)\n";
     std::cout << median << " Med.\t(" << FLOPs/1.0e9/median << " GFLOPS)\n";
     std::cout << min << " Min.\t(" << FLOPs/1.0e9/min << " GFLOPS)\n";

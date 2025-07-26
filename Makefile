@@ -7,10 +7,11 @@ CXX          := g++
 CXXFLAGS     := -std=c++20 -Wall -Wextra
 
 # OpenBLAS installation prefix (override if needed)
-OPENBLAS_PREFIX ?= /media/jin/nvme1n1p1/OpenBLAS/install
+#OPENBLAS_PREFIX ?= /media/jin/nvme1n1p1/OpenBLAS/install
+OPENBLAS_PREFIX ?= /home/jin/OpenBLAS/install
 
 # Include and library paths
-INCLUDES     := -I$(OPENBLAS_PREFIX)/include
+INCLUDES     := -I$(OPENBLAS_PREFIX)/include/openblas
 LDFLAGS      := -L$(OPENBLAS_PREFIX)/lib
 LDLIBS       := -lopenblas
 
@@ -28,7 +29,8 @@ all: $(TARGET)
 debug: CXXFLAGS += -g -O0
 debug: clean all
 
-# Build rule\$(TARGET): $(SRCS)
+# Build rule
+$(TARGET): $(SRCS)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) $^ -o $@ $(LDFLAGS) $(LDLIBS)
 
 # Clean up
