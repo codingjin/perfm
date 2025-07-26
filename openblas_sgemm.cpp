@@ -14,7 +14,8 @@
 const int WARMUP = 10;
 const int RUNS = 100;
 //const int MAXTHREADNUM = 20;  // i7 - 20
-const int MAXTHREADNUM = 32;  // r9 - 32
+//const int MAXTHREADNUM = 32;  // r9 - 32
+const int MAXTHREADNUM = 64;  // rt - 64
 const float ERR = 0.1;
 
 void compareMat(float *A, float *B, int N, int M);
