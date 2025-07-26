@@ -1,0 +1,450 @@
+Input is N=4097, K=4097, M=129
+
+=== OpenBLAS ThreadNum=1 ===
+Took 5.64509 seconds for 100 runs. 10 warmups
+0.0564509 Avg.	(76.715 GFLOPS)
+0.056445 Med.	(76.7231 GFLOPS)
+0.056157 Min.	(77.1166 GFLOPS)
+1.55064e-08 Dev
+
+=== OpenBLAS ThreadNum=2 ===
+Took 2.81427 seconds for 100 runs. 10 warmups
+0.0281427 Avg.	(153.881 GFLOPS)
+0.0281476 Med.	(153.854 GFLOPS)
+0.027797 Min.	(155.795 GFLOPS)
+5.25295e-09 Dev
+
+=== OpenBLAS ThreadNum=3 ===
+Took 1.91774 seconds for 100 runs. 10 warmups
+0.0191774 Avg.	(225.82 GFLOPS)
+0.0191764 Med.	(225.832 GFLOPS)
+0.0190672 Min.	(227.125 GFLOPS)
+2.13602e-09 Dev
+
+=== OpenBLAS ThreadNum=4 ===
+Took 1.42939 seconds for 100 runs. 10 warmups
+0.0142939 Avg.	(302.971 GFLOPS)
+0.0142866 Med.	(303.125 GFLOPS)
+0.0142109 Min.	(304.741 GFLOPS)
+2.69765e-09 Dev
+
+=== OpenBLAS ThreadNum=5 ===
+Took 1.15958 seconds for 100 runs. 10 warmups
+0.0115958 Avg.	(373.467 GFLOPS)
+0.0115902 Med.	(373.646 GFLOPS)
+0.0115111 Min.	(376.215 GFLOPS)
+1.39926e-09 Dev
+
+=== OpenBLAS ThreadNum=6 ===
+Took 0.973994 seconds for 100 runs. 10 warmups
+0.00973994 Avg.	(444.626 GFLOPS)
+0.00973603 Med.	(444.805 GFLOPS)
+0.00968769 Min.	(447.025 GFLOPS)
+6.42973e-10 Dev
+
+=== OpenBLAS ThreadNum=7 ===
+Took 0.845307 seconds for 100 runs. 10 warmups
+0.00845307 Avg.	(512.315 GFLOPS)
+0.00844917 Med.	(512.552 GFLOPS)
+0.00838017 Min.	(516.772 GFLOPS)
+1.18908e-09 Dev
+
+=== OpenBLAS ThreadNum=8 ===
+Took 0.732986 seconds for 100 runs. 10 warmups
+0.00732986 Avg.	(590.821 GFLOPS)
+0.00732378 Med.	(591.311 GFLOPS)
+0.00727395 Min.	(595.363 GFLOPS)
+1.62399e-09 Dev
+
+=== OpenBLAS ThreadNum=9 ===
+Took 0.662692 seconds for 100 runs. 10 warmups
+0.00662692 Avg.	(653.492 GFLOPS)
+0.00662318 Med.	(653.86 GFLOPS)
+0.00657587 Min.	(658.565 GFLOPS)
+6.35134e-10 Dev
+
+=== OpenBLAS ThreadNum=10 ===
+Took 0.610706 seconds for 100 runs. 10 warmups
+0.00610706 Avg.	(709.119 GFLOPS)
+0.00610421 Med.	(709.45 GFLOPS)
+0.00605668 Min.	(715.018 GFLOPS)
+9.45509e-10 Dev
+
+=== OpenBLAS ThreadNum=11 ===
+Took 0.569686 seconds for 100 runs. 10 warmups
+0.00569686 Avg.	(760.18 GFLOPS)
+0.00569833 Med.	(759.983 GFLOPS)
+0.00565767 Min.	(765.445 GFLOPS)
+3.08793e-10 Dev
+
+=== OpenBLAS ThreadNum=12 ===
+Took 0.531399 seconds for 100 runs. 10 warmups
+0.00531399 Avg.	(814.95 GFLOPS)
+0.00531484 Med.	(814.82 GFLOPS)
+0.00527277 Min.	(821.321 GFLOPS)
+6.03514e-10 Dev
+
+=== OpenBLAS ThreadNum=13 ===
+Took 0.481682 seconds for 100 runs. 10 warmups
+0.00481682 Avg.	(899.065 GFLOPS)
+0.00480957 Med.	(900.421 GFLOPS)
+0.00476769 Min.	(908.331 GFLOPS)
+1.25932e-09 Dev
+
+=== OpenBLAS ThreadNum=14 ===
+Took 0.457401 seconds for 100 runs. 10 warmups
+0.00457401 Avg.	(946.792 GFLOPS)
+0.00457195 Med.	(947.219 GFLOPS)
+0.00452944 Min.	(956.109 GFLOPS)
+7.35826e-10 Dev
+
+=== OpenBLAS ThreadNum=15 ===
+Took 0.429385 seconds for 100 runs. 10 warmups
+0.00429385 Avg.	(1008.57 GFLOPS)
+0.00428273 Med.	(1011.19 GFLOPS)
+0.00424639 Min.	(1019.84 GFLOPS)
+1.35979e-09 Dev
+
+=== OpenBLAS ThreadNum=16 ===
+Took 0.400597 seconds for 100 runs. 10 warmups
+0.00400597 Avg.	(1081.05 GFLOPS)
+0.00400032 Med.	(1082.57 GFLOPS)
+0.00396588 Min.	(1091.97 GFLOPS)
+5.79917e-10 Dev
+
+=== OpenBLAS ThreadNum=17 ===
+Took 0.400895 seconds for 100 runs. 10 warmups
+0.00400895 Avg.	(1080.24 GFLOPS)
+0.00400458 Med.	(1081.42 GFLOPS)
+0.00397216 Min.	(1090.25 GFLOPS)
+4.15956e-10 Dev
+
+=== OpenBLAS ThreadNum=18 ===
+Took 0.380713 seconds for 100 runs. 10 warmups
+0.00380713 Avg.	(1137.51 GFLOPS)
+0.00381089 Med.	(1136.38 GFLOPS)
+0.00375641 Min.	(1152.87 GFLOPS)
+3.14461e-10 Dev
+
+=== OpenBLAS ThreadNum=19 ===
+Took 0.387308 seconds for 100 runs. 10 warmups
+0.00387308 Avg.	(1118.14 GFLOPS)
+0.00381447 Med.	(1135.32 GFLOPS)
+0.00373908 Min.	(1158.21 GFLOPS)
+1.47093e-07 Dev
+
+=== OpenBLAS ThreadNum=20 ===
+Took 0.353945 seconds for 100 runs. 10 warmups
+0.00353945 Avg.	(1223.53 GFLOPS)
+0.0035377 Med.	(1224.14 GFLOPS)
+0.00352439 Min.	(1228.76 GFLOPS)
+6.42656e-11 Dev
+
+=== OpenBLAS ThreadNum=21 ===
+Took 0.364671 seconds for 100 runs. 10 warmups
+0.00364671 Avg.	(1187.55 GFLOPS)
+0.00355577 Med.	(1217.92 GFLOPS)
+0.00352739 Min.	(1227.72 GFLOPS)
+1.9406e-07 Dev
+
+=== OpenBLAS ThreadNum=22 ===
+Took 0.328822 seconds for 100 runs. 10 warmups
+0.00328822 Avg.	(1317.02 GFLOPS)
+0.00328904 Med.	(1316.69 GFLOPS)
+0.00326963 Min.	(1324.5 GFLOPS)
+5.96737e-11 Dev
+
+=== OpenBLAS ThreadNum=23 ===
+Took 0.345314 seconds for 100 runs. 10 warmups
+0.00345314 Avg.	(1254.12 GFLOPS)
+0.00328807 Med.	(1317.08 GFLOPS)
+0.00326956 Min.	(1324.53 GFLOPS)
+3.42728e-07 Dev
+
+=== OpenBLAS ThreadNum=24 ===
+Took 0.306376 seconds for 100 runs. 10 warmups
+0.00306376 Avg.	(1413.5 GFLOPS)
+0.00306393 Med.	(1413.42 GFLOPS)
+0.00304218 Min.	(1423.53 GFLOPS)
+7.08783e-11 Dev
+
+=== OpenBLAS ThreadNum=25 ===
+Took 0.306661 seconds for 100 runs. 10 warmups
+0.00306661 Avg.	(1412.19 GFLOPS)
+0.00306543 Med.	(1412.73 GFLOPS)
+0.00304639 Min.	(1421.56 GFLOPS)
+3.23041e-10 Dev
+
+=== OpenBLAS ThreadNum=26 ===
+Took 0.321098 seconds for 100 runs. 10 warmups
+0.00321098 Avg.	(1348.7 GFLOPS)
+0.00313333 Med.	(1382.12 GFLOPS)
+0.00310038 Min.	(1396.81 GFLOPS)
+1.66379e-07 Dev
+
+=== OpenBLAS ThreadNum=27 ===
+Took 0.330643 seconds for 100 runs. 10 warmups
+0.00330643 Avg.	(1309.76 GFLOPS)
+0.00313979 Med.	(1379.28 GFLOPS)
+0.00311724 Min.	(1389.25 GFLOPS)
+2.97477e-07 Dev
+
+=== OpenBLAS ThreadNum=28 ===
+Took 0.287083 seconds for 100 runs. 10 warmups
+0.00287083 Avg.	(1508.5 GFLOPS)
+0.00286897 Med.	(1509.48 GFLOPS)
+0.00284456 Min.	(1522.43 GFLOPS)
+1.41215e-10 Dev
+
+=== OpenBLAS ThreadNum=29 ===
+Took 0.285616 seconds for 100 runs. 10 warmups
+0.00285616 Avg.	(1516.24 GFLOPS)
+0.00285659 Med.	(1516.01 GFLOPS)
+0.0028333 Min.	(1528.48 GFLOPS)
+9.00516e-11 Dev
+
+=== OpenBLAS ThreadNum=30 ===
+Took 0.271498 seconds for 100 runs. 10 warmups
+0.00271498 Avg.	(1595.09 GFLOPS)
+0.0027152 Med.	(1594.96 GFLOPS)
+0.0026889 Min.	(1610.56 GFLOPS)
+1.5661e-10 Dev
+
+=== OpenBLAS ThreadNum=31 ===
+Took 0.276422 seconds for 100 runs. 10 warmups
+0.00276422 Avg.	(1566.68 GFLOPS)
+0.00270768 Med.	(1599.39 GFLOPS)
+0.00269002 Min.	(1609.89 GFLOPS)
+7.28231e-08 Dev
+
+=== OpenBLAS ThreadNum=32 ===
+Took 0.253776 seconds for 100 runs. 10 warmups
+0.00253776 Avg.	(1706.48 GFLOPS)
+0.00253679 Med.	(1707.13 GFLOPS)
+0.00251401 Min.	(1722.6 GFLOPS)
+1.08212e-10 Dev
+
+=== OpenBLAS ThreadNum=33 ===
+Took 0.261922 seconds for 100 runs. 10 warmups
+0.00261922 Avg.	(1653.41 GFLOPS)
+0.00254806 Med.	(1699.58 GFLOPS)
+0.00251192 Min.	(1724.03 GFLOPS)
+8.90216e-08 Dev
+
+=== OpenBLAS ThreadNum=34 ===
+Took 0.26157 seconds for 100 runs. 10 warmups
+0.0026157 Avg.	(1655.63 GFLOPS)
+0.00253913 Med.	(1705.56 GFLOPS)
+0.00250629 Min.	(1727.91 GFLOPS)
+1.07827e-07 Dev
+
+=== OpenBLAS ThreadNum=35 ===
+Took 0.253877 seconds for 100 runs. 10 warmups
+0.00253877 Avg.	(1705.8 GFLOPS)
+0.00253841 Med.	(1706.04 GFLOPS)
+0.00251063 Min.	(1724.92 GFLOPS)
+1.10795e-10 Dev
+
+=== OpenBLAS ThreadNum=36 ===
+Took 0.260174 seconds for 100 runs. 10 warmups
+0.00260174 Avg.	(1664.51 GFLOPS)
+0.00260244 Med.	(1664.06 GFLOPS)
+0.00257262 Min.	(1683.36 GFLOPS)
+7.36808e-11 Dev
+
+=== OpenBLAS ThreadNum=37 ===
+Took 0.269042 seconds for 100 runs. 10 warmups
+0.00269042 Avg.	(1609.65 GFLOPS)
+0.00258837 Med.	(1673.11 GFLOPS)
+0.002552 Min.	(1696.96 GFLOPS)
+1.98078e-07 Dev
+
+=== OpenBLAS ThreadNum=38 ===
+Took 0.269183 seconds for 100 runs. 10 warmups
+0.00269183 Avg.	(1608.81 GFLOPS)
+0.00256514 Med.	(1688.26 GFLOPS)
+0.00254758 Min.	(1699.9 GFLOPS)
+1.94352e-07 Dev
+
+=== OpenBLAS ThreadNum=39 ===
+Took 0.255819 seconds for 100 runs. 10 warmups
+0.00255819 Avg.	(1692.85 GFLOPS)
+0.00255674 Med.	(1693.81 GFLOPS)
+0.00254818 Min.	(1699.5 GFLOPS)
+4.89488e-11 Dev
+
+=== OpenBLAS ThreadNum=40 ===
+Took 0.271487 seconds for 100 runs. 10 warmups
+0.00271487 Avg.	(1595.16 GFLOPS)
+0.00260697 Med.	(1661.17 GFLOPS)
+0.00254724 Min.	(1700.13 GFLOPS)
+1.52297e-07 Dev
+
+=== OpenBLAS ThreadNum=41 ===
+Took 0.253972 seconds for 100 runs. 10 warmups
+0.00253972 Avg.	(1705.16 GFLOPS)
+0.00253916 Med.	(1705.54 GFLOPS)
+0.00252212 Min.	(1717.06 GFLOPS)
+7.84433e-11 Dev
+
+=== OpenBLAS ThreadNum=42 ===
+Took 0.280367 seconds for 100 runs. 10 warmups
+0.00280367 Avg.	(1544.63 GFLOPS)
+0.00254283 Med.	(1703.08 GFLOPS)
+0.00252612 Min.	(1714.34 GFLOPS)
+4.96816e-07 Dev
+
+=== OpenBLAS ThreadNum=43 ===
+Took 0.271936 seconds for 100 runs. 10 warmups
+0.00271936 Avg.	(1592.52 GFLOPS)
+0.00261335 Med.	(1657.12 GFLOPS)
+0.0025217 Min.	(1717.35 GFLOPS)
+1.22197e-07 Dev
+
+=== OpenBLAS ThreadNum=44 ===
+Took 0.275065 seconds for 100 runs. 10 warmups
+0.00275065 Avg.	(1574.4 GFLOPS)
+0.00256984 Med.	(1685.18 GFLOPS)
+0.00253044 Min.	(1711.42 GFLOPS)
+2.93701e-07 Dev
+
+=== OpenBLAS ThreadNum=45 ===
+Took 0.253443 seconds for 100 runs. 10 warmups
+0.00253443 Avg.	(1708.72 GFLOPS)
+0.00254245 Med.	(1703.33 GFLOPS)
+0.00247152 Min.	(1752.21 GFLOPS)
+6.60419e-10 Dev
+
+=== OpenBLAS ThreadNum=46 ===
+Took 0.286662 seconds for 100 runs. 10 warmups
+0.00286662 Avg.	(1510.71 GFLOPS)
+0.00254946 Med.	(1698.65 GFLOPS)
+0.00247204 Min.	(1751.84 GFLOPS)
+4.9868e-07 Dev
+
+=== OpenBLAS ThreadNum=47 ===
+Took 0.263765 seconds for 100 runs. 10 warmups
+0.00263765 Avg.	(1641.85 GFLOPS)
+0.0025114 Med.	(1724.39 GFLOPS)
+0.00248814 Min.	(1740.51 GFLOPS)
+1.2143e-07 Dev
+
+=== OpenBLAS ThreadNum=48 ===
+Took 0.250871 seconds for 100 runs. 10 warmups
+0.00250871 Avg.	(1726.24 GFLOPS)
+0.00250555 Med.	(1728.42 GFLOPS)
+0.00247912 Min.	(1746.85 GFLOPS)
+4.68794e-10 Dev
+
+=== OpenBLAS ThreadNum=49 ===
+Took 0.290846 seconds for 100 runs. 10 warmups
+0.00290846 Avg.	(1488.98 GFLOPS)
+0.00262633 Med.	(1648.93 GFLOPS)
+0.00248217 Min.	(1744.7 GFLOPS)
+6.28005e-07 Dev
+
+=== OpenBLAS ThreadNum=50 ===
+Took 0.280808 seconds for 100 runs. 10 warmups
+0.00280808 Avg.	(1542.2 GFLOPS)
+0.00267291 Med.	(1620.2 GFLOPS)
+0.00251039 Min.	(1725.09 GFLOPS)
+1.72443e-07 Dev
+
+=== OpenBLAS ThreadNum=51 ===
+Took 0.26532 seconds for 100 runs. 10 warmups
+0.0026532 Avg.	(1632.23 GFLOPS)
+0.00254003 Med.	(1704.95 GFLOPS)
+0.00244004 Min.	(1774.82 GFLOPS)
+8.26038e-08 Dev
+
+=== OpenBLAS ThreadNum=52 ===
+Took 0.251736 seconds for 100 runs. 10 warmups
+0.00251736 Avg.	(1720.31 GFLOPS)
+0.00244813 Med.	(1768.96 GFLOPS)
+0.00235067 Min.	(1842.3 GFLOPS)
+5.65557e-08 Dev
+
+=== OpenBLAS ThreadNum=53 ===
+Took 0.232198 seconds for 100 runs. 10 warmups
+0.00232198 Avg.	(1865.06 GFLOPS)
+0.00232149 Med.	(1865.45 GFLOPS)
+0.00226675 Min.	(1910.51 GFLOPS)
+1.77511e-10 Dev
+
+=== OpenBLAS ThreadNum=54 ===
+Took 0.239684 seconds for 100 runs. 10 warmups
+0.00239684 Avg.	(1806.81 GFLOPS)
+0.00231983 Med.	(1866.79 GFLOPS)
+0.00229988 Min.	(1882.98 GFLOPS)
+1.03738e-07 Dev
+
+=== OpenBLAS ThreadNum=55 ===
+Took 0.246527 seconds for 100 runs. 10 warmups
+0.00246527 Avg.	(1756.66 GFLOPS)
+0.00234591 Med.	(1846.04 GFLOPS)
+0.00227787 Min.	(1901.18 GFLOPS)
+1.1107e-07 Dev
+
+=== OpenBLAS ThreadNum=56 ===
+Took 0.214205 seconds for 100 runs. 10 warmups
+0.00214205 Avg.	(2021.72 GFLOPS)
+0.00214725 Med.	(2016.83 GFLOPS)
+0.00207312 Min.	(2088.94 GFLOPS)
+1.14722e-09 Dev
+
+=== OpenBLAS ThreadNum=57 ===
+Took 0.221569 seconds for 100 runs. 10 warmups
+0.00221569 Avg.	(1954.53 GFLOPS)
+0.00211254 Med.	(2049.97 GFLOPS)
+0.00208831 Min.	(2073.75 GFLOPS)
+9.63212e-08 Dev
+
+=== OpenBLAS ThreadNum=58 ===
+Took 0.211663 seconds for 100 runs. 10 warmups
+0.00211663 Avg.	(2046 GFLOPS)
+0.0021153 Med.	(2047.3 GFLOPS)
+0.00210163 Min.	(2060.61 GFLOPS)
+4.44405e-11 Dev
+
+=== OpenBLAS ThreadNum=59 ===
+Took 0.216317 seconds for 100 runs. 10 warmups
+0.00216317 Avg.	(2001.98 GFLOPS)
+0.00211475 Med.	(2047.82 GFLOPS)
+0.00209841 Min.	(2063.77 GFLOPS)
+4.19148e-08 Dev
+
+=== OpenBLAS ThreadNum=60 ===
+Took 0.221989 seconds for 100 runs. 10 warmups
+0.00221989 Avg.	(1950.83 GFLOPS)
+0.00220808 Med.	(1961.26 GFLOPS)
+0.0021721 Min.	(1993.76 GFLOPS)
+1.69717e-09 Dev
+
+=== OpenBLAS ThreadNum=61 ===
+Took 0.245008 seconds for 100 runs. 10 warmups
+0.00245008 Avg.	(1767.55 GFLOPS)
+0.00231164 Med.	(1873.4 GFLOPS)
+0.00222251 Min.	(1948.53 GFLOPS)
+1.66075e-07 Dev
+
+=== OpenBLAS ThreadNum=62 ===
+Took 0.257159 seconds for 100 runs. 10 warmups
+0.00257159 Avg.	(1684.03 GFLOPS)
+0.00236414 Med.	(1831.8 GFLOPS)
+0.00220482 Min.	(1964.17 GFLOPS)
+2.62721e-07 Dev
+
+=== OpenBLAS ThreadNum=63 ===
+Took 0.23375 seconds for 100 runs. 10 warmups
+0.0023375 Avg.	(1852.68 GFLOPS)
+0.00232746 Med.	(1860.67 GFLOPS)
+0.00224793 Min.	(1926.5 GFLOPS)
+2.10878e-09 Dev
+
+=== OpenBLAS ThreadNum=64 ===
+Took 0.555142 seconds for 100 runs. 10 warmups
+0.00555142 Avg.	(780.095 GFLOPS)
+0.00553202 Med.	(782.831 GFLOPS)
+0.0054381 Min.	(796.351 GFLOPS)
+5.88691e-09 Dev
+
