@@ -20,14 +20,10 @@ SRCS         := openblas_sgemm.cpp
 TARGET       := openblas_sgemm
 
 # Phony targets
-.PHONY: all debug clean
+.PHONY: all clean
 
 # Default target
 all: $(TARGET)
-
-# Debug build (adds -g, disables optimization)
-debug: CXXFLAGS += -g -O0
-debug: clean all
 
 # Build rule
 $(TARGET): $(SRCS)
