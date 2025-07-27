@@ -70,8 +70,7 @@ def main():
     # Generating csv files under every subfolder
     extract_csvs(cpu, modelname)
 
-    print("Step 1 Extraction Completed! Please do Step 2, Merging perf-data files ...")
+    print(f"Step 1 for {modelname}-{cpu} Extraction Completed! Please do Step 2, Merging perf-data files ...")
 
 if __name__ == "__main__":
     main()
-    
